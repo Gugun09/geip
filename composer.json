@@ -1,0 +1,30 @@
+{
+    "name": "gugun09/getip",
+    "description": "Library Get Ip Address",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gugun09",
+            "email": "Gratisan009@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload" : {
+        "psr-4" : {"gugun09\\getip\\" : "src/"}
+    },
+    "require": {
+        "php": "^7.3||^7.4",
+        "laravel/framework": "^7.0",
+    },
+    "ekstra":{
+        "laravel":{
+            "helpers":[
+                "gugun09\\getip\\Gugun09Helper"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
