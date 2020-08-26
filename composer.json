@@ -19,8 +19,8 @@
     },
     "ektra": {
         "laravel": {
-            "helpers":[
-                "gugun09\\getip\\Gugun09Helper"
+            "providers":[
+                "gugun09\\getip\\Gugun09HelperServiceProvider"
             ]
         }
     },
