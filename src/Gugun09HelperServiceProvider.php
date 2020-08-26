@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Gugun09\Getip;
 
 use Illuminate\Support\ServiceProvider;
 

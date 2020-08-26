@@ -3,7 +3,7 @@
 /**
  *
  */
-namespace App\Helpers;
+namespace Gugun09\Helpers;
 class Gugun09Helper
 {
   private static function get_user_agent(){
