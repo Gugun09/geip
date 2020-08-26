@@ -11,11 +11,11 @@
     ],
     "minimum-stability": "dev",
     "autoload" : {
-        "psr-4" : {"Gugun09\\Helpers" : "src/"}
+        "psr-4" : {"Gugun09\\Helpers\\" : "src/"}
     },
     "require": {
         "php": "^7.3||^7.4",
-        "laravel/framework": "^5.0"
+        "laravel/framework": "^6.0"
     },
     "ektra": {
         "laravel": {
